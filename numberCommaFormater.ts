@@ -10,7 +10,7 @@ function numberCommaFormater(n: number) {
     //     charCount++;
     // }
     // const result = newNumStr.split("").reverse().join("");
-    // return isNaN(+result[0]) ? result[0] + result.slice(2)  : result;
+    // return isNaN(+result[0]) && isNaN(+result[1]) ? result[0] + result.slice(2)  : result;
     return n.toLocaleString("en-US");
 }
 
